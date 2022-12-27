@@ -1,5 +1,5 @@
 
-import { Head } from "$fresh/runtime.ts";
+import { Head ,Link} from "$fresh/runtime.ts";
 import { asset } from "$fresh/runtime.ts";
 import Header from './Header.tsx';
 
