@@ -7,8 +7,9 @@ export default function Header(props) {
 
         <nav className="w-4/6 mx-auto">
             <ul className="flex flex-row ">
-                <li className="text-center mx-2"><a target="_blank" href="https://deno.com/">Docs</a></li>
-                <li className="text-center mx-2"><a target="_blank" href="https://fresh.deno.dev/">Deploy</a></li>
+                <li className="text-center mx-2"><a target="_blank" href="https://deno.com/">Deno page</a></li>
+                <li className="text-center mx-2"><a target="_blank" href="https://fresh.deno.dev/">Docs</a></li>
+                <li className="text-center mx-2"><a target="_blank" href="https://deno.dev/">Deploy</a></li>
                 <li className="text-center mx-2"><a target="_blank" href="https://github.com/officialrajdeepsingh/deno-tailwindcss">Github</a></li>
             </ul>
         </nav>
