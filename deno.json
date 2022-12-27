@@ -1,7 +1,8 @@
 {
   "tasks": {
     "start": "deno run -A --watch=static/,routes/ dev.ts",
-    "tailwind":"tailwind -i main.css -o static/build.css -w"
+    "tailwind":"  tailwind -i main.css -o static/build.css -w",
+    "tailwind:build":"  tailwind -i main.css -o static/build.css -m"
   },
   "importMap": "./import_map.json",
   "compilerOptions": {
